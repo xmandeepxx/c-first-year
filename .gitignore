@@ -1,3 +1,5 @@
+# ===== C (GitHub default) =====
+
 # Prerequisites
 *.d
 
@@ -51,5 +53,19 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
+# Debug information files
 *.dwo
+
+# ===== Python (tere repo ke liye extra) =====
+__pycache__/
+*.py[cod]
+*.pyc
+
+# ===== IDE folders (extra) =====
+.vscode/
+.idea/
+*.code-workspace
+
+# ===== OS files (extra) =====
+.DS_Store
+Thumbs.db
